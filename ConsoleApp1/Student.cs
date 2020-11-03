@@ -11,23 +11,18 @@ namespace ConsoleApp1
         static void Main()
         {
             string StudentName, SchoolName;
-            int Age;
             Console.WriteLine("Enter the StudentName");
             StudentName = Console.ReadLine();
             Console.WriteLine("Enter the SchoolName");
-            SchoolName = Console.ReadLine();
-            Console.WriteLine("Enter the Age");
-            Age = Convert.ToInt32(Console.ReadLine());
+            SchoolName = Console.ReadLine(); 
             Console.WriteLine("Enter Location");
             string Location=Console.ReadLine();
             Console.WriteLine("enter the student ID");
             int StudentID = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Enter the DOB");
             string DOB = Console.ReadLine();
-          
             Console.WriteLine("Name= {0}", StudentName);
             Console.WriteLine("School= {0}", SchoolName);
-            Console.WriteLine("Age {0}", Age);
             Console.WriteLine("Location={0}", Location);
             Console.WriteLine("StudentId= {0}", StudentID);
             Console.WriteLine("DOB={0}", DOB);
