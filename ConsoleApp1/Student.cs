@@ -10,7 +10,7 @@ namespace ConsoleApp1
     {
         static void Main()
         {
-            string StudentName, SchoolName,studentfathername;
+            string StudentName, SchoolName;
             int Age;
             Console.WriteLine("Enter the StudentName");
             StudentName = Console.ReadLine();
@@ -19,16 +19,18 @@ namespace ConsoleApp1
             Console.WriteLine("Enter the Age");
             Age = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Enter Location");
-            string Location=Console.Readline();
-            Console.Writeline("enter the student ID");
-            int StudentID = Convert.ToInt32(Console.Readline());
-            Console.WriteLine("Enter the studentfathername")
+            string Location=Console.ReadLine();
+            Console.WriteLine("enter the student ID");
+            int StudentID = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter the DOB");
+            string DOB = Console.ReadLine();
           
             Console.WriteLine("Name= {0}", StudentName);
             Console.WriteLine("School= {0}", SchoolName);
             Console.WriteLine("Age {0}", Age);
-            Console.Writeline("Location={0}", Location);
-            Console.Writeline("StudentId= {0}", StidentID);
+            Console.WriteLine("Location={0}", Location);
+            Console.WriteLine("StudentId= {0}", StudentID);
+            Console.WriteLine("DOB={0}", DOB);
             
             Console.Read();
 
