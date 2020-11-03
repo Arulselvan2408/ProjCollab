@@ -21,12 +21,12 @@ namespace ConsoleApp1
             int StudentID = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Enter the DOB");
             string DOB = Console.ReadLine();
+            Console.WriteLine("The Student Details are shown below");
             Console.WriteLine("Name= {0}", StudentName);
             Console.WriteLine("School= {0}", SchoolName);
             Console.WriteLine("Location={0}", Location);
             Console.WriteLine("StudentId= {0}", StudentID);
-            Console.WriteLine("DOB={0}", DOB);
-            
+            Console.WriteLine("DOB={0}", DOB);           
             Console.Read();
 
         }
